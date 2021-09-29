@@ -34,16 +34,29 @@ body
   background-color: #c9ccd5; border: solid;
 }
 
-.btnsit {
-  height: 50px;  background-color: #ffe3e3;
-}
-.btnfast {
-  height: 50px;  background-color: #ffe3e3;
+
+.btn {
+  height: 40px;
+  transition-duration: 0.4s;
 }
 
-.btntoday {
-  height: 50px;
+.btn:hover {
+  background-color: #93B5C6;
+
+
 }
 .btndice {
-  height: 50px;
+  transition-duration: 0.4s;
+}
+
+.btndice:hover {
+  background-color:  #FFE3E3;
+}
+.btntoday {
+    height: 40px;
+    transition-duration: 0.4s;
+  }
+
+.btn:hover {
+    background-color: #93B5C6;
 }
