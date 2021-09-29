@@ -1,0 +1,49 @@
+body
+{ margin: 0;
+
+    background-color: #e4d8dc;
+}
+
+
+.dobby-top
+{ margin-top: 0;
+    color: #ffe3e3;
+}
+.top-container
+{ width: 100%;  height: 275px;  padding: 20px;  text-align: center;
+  border: solid;  border-width: .2px, 0, .2px, 0;
+    background-color: #93b5c6;
+}
+
+.middle-container
+{width: auto;  height: 250px;  padding: 20px;
+  background-color: #FFE3E3; text-align: center;
+
+  border:solid;
+}
+
+
+.roll {
+  position: relative;
+  width: 100%; height: 200px;
+  text-align: center;
+  border: solid;
+}
+.bottom-container
+{ width: 100%;  height: 175px;  padding: 20px; text-align: center;
+  background-color: #c9ccd5; border: solid;
+}
+
+.btnsit {
+  height: 50px;  background-color: #ffe3e3;
+}
+.btnfast {
+  height: 50px;  background-color: #ffe3e3;
+}
+
+.btntoday {
+  height: 50px;
+}
+.btndice {
+  height: 50px;
+}
