@@ -3,101 +3,69 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Kimberly H</title>
+  <title>Biscuit</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="icon" href="dobbyfavicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="top-container">
-    <img src="" alt="">
-
-    <h1 class="dobby-top">Hello! I'm Dobby,</h1>
-    <p><strong>a German Shepherd. I can do tricks for you,
-      <br>
-        like pick a restaurant, roll dice, or give you the date and time</p>
-    <img src="" alt="">
-    <img src="prettydobby4.jpg" alt="cacti" class="dog">
+  <div class="header">
+    <h1>Biscuit's Website</h1>
+    <p>I am Biscuit Bebe the pug.</p>
   </div>
 
-  <div class="middle-container">
-    <h1>Dobby's restaurant picker</h1>
-    <p>When no one wants to pick a restaurant, ask Dobby for a suggestion.</p>
-    <br>
-    <div class="rest">
-      <button class="btn" onclick="document.getElementById('resters').innerHTML=randomrest()">Sit down restaurants 🥣.</button>
-      <span id="resters"></span>
-      <br>
+  <div class="topnav">
+    <a href="https://dogtime.com/dog-breeds/pug#/slide/1">Pug Info</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
 
-      <script>
-        function randomrest() {
-          return rests[Math.floor(Math.random() * rests.length)];
-        }
+  </div>
 
-        const rests = ["Bubba's", "Coyote Bluff", "Red River", "The Catch", "Big Texan", "Lone Star", "Firehouse",
-          "Jorge's", "Taco Joe's", "Mexico Lindo", "El Bracero", "Los Braceros", "El Tejavan"
-        ]
-      </script>
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>Bebe</h2>
+        <h5>Yay Biscuit!</h5>
+
+        <div class="biscuitone">
+          <img src="biscuitheaddown.jpg" height=175px>
+        </div>
+        <p>Biscuit...</p>
+
+      </div>
+      <div class="card">
+        <h2>I am a prince.</h2>
+        <h5>I am royalty, just ask my mom.</h5>
+        <div class="biscuitthree">
+          <img src=" biscuitwhipcream.jpg" height=175px>
+        </div>
+
+        <p>Biscuit is..</p>
+
+      </div>
     </div>
-<br>
-<br>
-    <div class="fastrest">
-      <button class="btn" onclick="document.getElementById('fastresters').innerHTML=fastrandomrest()">Fast restaurants 🥪.</button>
-      <span id="fastresters"></span>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Me</h2>
+        <div class="biscuittwo">
+          <img src="biscuittongue.jpg" height=175px>
+        </div>
+        <p>Biscuit....</p>
+      </div>
 
-      <script>
-        function fastrandomrest() {
-          return fastrests[Math.floor(Math.random() * fastrests.length)];
-        }
-
-        const fastrests = ["Rosa's", "Whataburger", "Subway", "Firehouse subs", "Arby's", "Burger King", "Schlotzsky's"]
-      </script>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p>Some text..</p>
+      </div>
     </div>
   </div>
 
-
-
-  <div class="roll">
-    <br>
-    <button class="btndice" onclick="clickevent()">CLick to roll.</button>
-    <br>
-    <br>
-    <img id="myImg" src="onedicesm.png" width="90px" height="90px">
-    <br>
-
-    <script>
-      var rannum;
-
-      function clickevent() {
-        rannum = Math.floor(Math.random() * 6) + 1;
-
-        if (rannum == 1) {
-          document.getElementById("myImg").src = "onedicesm.png";
-        }
-        if (rannum == 2) {
-          document.getElementById("myImg").src = "two.png";
-        }
-        if (rannum == 3) {
-          document.getElementById("myImg").src = "three.png";
-        }
-        if (rannum == 4) {
-          document.getElementById("myImg").src = "four.png";
-        }
-        if (rannum == 5) {
-          document.getElementById("myImg").src = "fiver.png";
-        }
-        if (rannum == 6) {
-          document.getElementById("myImg").src = "sixer.png";
-        }
-      }
-    </script>
-
+  <div class="footer">
+    <h2>Footer</h2>
   </div>
-  <div class="bottom-container">
-    <h2>What is today? Click the button below for the current date and time.</h2>
-    <button class="btntoday" onclick="document.getElementById('today').innerHTML=Date()">Current date and time</button>
-    <p id="today"></p>
-  </div>
+
 </body>
 
 </html>
