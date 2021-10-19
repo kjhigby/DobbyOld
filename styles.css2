@@ -1,0 +1,14 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.grid {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
