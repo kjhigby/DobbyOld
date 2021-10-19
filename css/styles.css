@@ -10,13 +10,13 @@ body
     color: #ffe3e3;
 }
 .top-container
-{ width: 100%;  height: 275px;  padding: 20px;  text-align: center;
+{ width: 100%;  height: 300px;  padding: 20px;  text-align: center;
   border: solid;  border-width: .2px, 0, .2px, 0;
     background-color: #93b5c6;
 }
 
 .middle-container
-{width: auto;  height: 250px;  padding: 20px;
+{width: auto;  height: 300px;  padding: 20px;
   background-color: #FFE3E3; text-align: center;
 
   border:solid;
@@ -60,6 +60,15 @@ body
 .btn:hover {
     background-color: #93B5C6;
 }
+
+.game1{
+  background-color: #93B5C6; width:100%; height: 175px; padding: 20px; text-align: center;
+}
+
+/*Match game*/
+
+
+
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
     width: 100%;
